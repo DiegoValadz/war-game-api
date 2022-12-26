@@ -1,13 +1,13 @@
 # War Game
 
 ## Overview
-The project is a REST API created in Dot Net Core 6 which is consumed by an Angular application for demo purposes.
+The project is a REST API created in [Dot Net Core 6] which is consumed by an [Angular] application for demo purposes.
 
 ## Source Code
 Here you can get both git repositories to review the code.
 
- - Backend Github Repositorie
- - Frontend Github  Repositorie
+ - [Backend Github Repositorie]
+ - [Frontend Github  Repositorie]
 
 ## Access
 The solution is hosted on a VPS, you can easily access to the project by the following URLs:
@@ -52,9 +52,10 @@ shows the turns in the order they were played on the API
 on the above component
 
 
+
+   [Generate Computed Game Endpoint]: <http://war-game-api.diegovaladez.com/api/games/computed>
+   [web application]: <http://war-game-app.diegovaladez.com>
    [dot net core 6]: <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>
    [angular]: <https://angular.io/>
    [Backend Github Repositorie]: <https://github.com/DiegoValadz/war-game-api.git>
    [Frontend Github Repositorie]: <https://github.com/DiegoValadz/war-game-app.git>
-   [Generate Computed Game Endpoint]: <http://war-game-api.diegovaladez.com/api/games/computed>
-   [web application]: <http://war-game-app.diegovaladez.com>
