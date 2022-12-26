@@ -1,7 +1,7 @@
 # War Game
 
 ## Overview
-The project is a REST API created in .Net Core 6 which is consumed by an Angular application for demo purposes.
+The project is a REST API created in Dot Net Core 6 which is consumed by an Angular application for demo purposes.
 
 ## Source Code
 Here you can get both git repositories to review the code.
@@ -24,14 +24,10 @@ There are FIVE different endpoints created for this project:
 | TYPE  | ENDPOINT   | ACTION |
 |---|---|---|
 | GET |/games/computed   |This is the main action of the solution, it creates a new game and simulates all the events involved on a match. It returns a general "Game" Json object.   |
-| GET |/games/{id}   |It returns a Game from the database by it´s ID
-   |
-| GET |/players/scores   |This endpoint returns lifetime wins for each player stored in a database.
-   |
-| GET |/players/{id}   |It returns a Player from the database by it´s ID
-   |
-| POST |/players  |Creates a new player 
-   |  
+| GET |/games/{id}   |It returns a Game from the database by it´s ID |
+| GET |/players/scores   |This endpoint returns lifetime wins for each player stored in a database. |
+| GET |/players/{id}   |It returns a Player from the database by it´s ID  |
+| POST |/players  |Creates a new player   |  
 
 
 ## How to generate a game
@@ -56,7 +52,7 @@ shows the turns in the order they were played on the API
 on the above component
 
 
-   [.net core 6]: <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>
+   [dot net core 6]: <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>
    [angular]: <https://angular.io/>
    [Backend Github Repositorie]: <https://github.com/DiegoValadz/war-game-api.git>
    [Frontend Github Repositorie]: <https://github.com/DiegoValadz/war-game-app.git>
